@@ -1,0 +1,27 @@
+{
+	"name": "eris-handler",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "cls && node --no-warnings index.js",
+		"test": "cls && nodemon --no-warnings index.js"
+	},
+	"author": "Tavuk Döner",
+	"license": "MIT",
+	"dependencies": {
+		"@discordjs/builders": "^1.2.0",
+		"@discordjs/collection": "^1.1.0",
+		"ascii-table": "^0.0.9",
+		"boxen": "^7.0.0",
+		"chalk": "^5.0.1",
+		"dotenv": "^16.0.2",
+		"eris": "^0.17.1",
+		"figlet": "^1.5.2",
+		"got": "^12.3.1",
+		"lodash": "^4.17.21",
+		"node-html-parser": "^5.4.2",
+		"table": "^6.8.0"
+	}
+}
